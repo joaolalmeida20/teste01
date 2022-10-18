@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Peso nos Planetas</title>
+</head>
+<body>
+    <section class="container">
+        <div class="conteudo">
+            <h2>Qual é o seu peso aqui na Terra (Kg)</h2><input type="number" name="txtnum" id="txtnum">
+            <div class="button">
+                <input type="button" value="Mercúrio" onclick="mercurio()">
+                <input type="button" value="Vênus" id="venus" onclick="venus()">
+                <input type="button" value="Marte" onclick="marte()">
+                <input type="button" value="Júpiter" onclick="jupiter()">
+                <input type="button" value="Saturno" onclick="saturno()">
+                <input type="button" value="Urano" onclick="urano()">
+            </div>
+            <div id="foto">
+                <img id="imagem" src="img/planetas.png" alt="foto">
+            </div>
+            <div id="res"></div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

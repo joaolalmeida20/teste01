@@ -1,0 +1,10 @@
+.roupas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px 80px;
+}
+
+.itemRoupa {
+    width: 300px;
+}

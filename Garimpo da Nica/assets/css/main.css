@@ -1,0 +1,23 @@
+main {
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(47, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.papelDeParede {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    background-size: contain;
+    background-image: url(../img/271e3f8b79a4b9b052c140d564e3a335.jpg);
+}
+
+.conteudo {
+    margin-top: 15px;
+    position: relative;
+    width: 70vw;
+    height: 90vh;
+}
